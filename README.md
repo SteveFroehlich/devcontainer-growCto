@@ -3,7 +3,8 @@
 This repo contains files and example of how to use dev 
 containers.
 
-`Dockerfile` - the Dockerfile that will setup the development environment
+The Dockerfile that will setup the development environment is
+[here](.devcontainer/Dockerfile)
 
 To build the image run the scrip:
 `build-dev-container-image.sh`
