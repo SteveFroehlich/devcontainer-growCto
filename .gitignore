@@ -1,5 +1,8 @@
-# Compiled class file
-*.class
+# gradle build dirs
+build/
+
+# gradle installation
+.gradle/
 
 # Log file
 *.log
