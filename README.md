@@ -1,7 +1,8 @@
 # devcontainer-growCto
 
 This repo contains files and example of how to use dev 
-containers.
+containers. This version doesn't use the dev container spec
+but a plain Dockerfile to create an environment.
 
 The Dockerfile that will setup the development environment is
 [here](.devcontainer/Dockerfile)
