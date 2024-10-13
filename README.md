@@ -39,3 +39,20 @@ You can also past into your browser:
 `localhost:8080/api/hello`
 since the port 8080 is forwarded to your host system you should see the response
 
+-----
+## Steps for not using docker compose
+First build the image with 
+```
+docker build --tag devc -f .devcontainer/Dockerfile .
+```
+then create and run the container with
+```
+current_dir=$(pwd)
+
+docker run -v $current_dir:/app -d -p 8080:8080 devc
+```
+Then follow use 
+```
+docker container exec -it <container-id> bash
+```
+to ssh into the running container after you copy the container ID.

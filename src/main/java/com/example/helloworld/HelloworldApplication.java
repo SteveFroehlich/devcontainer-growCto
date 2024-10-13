@@ -14,6 +14,7 @@ public class HelloworldApplication {
     }
 }
 
+// localhost:8080/api/hello
 @RestController
 @RequestMapping("/api")
 class HelloWorldController {

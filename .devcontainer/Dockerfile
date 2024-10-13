@@ -8,7 +8,7 @@ RUN apt-get update && \
     unzip \
     
     # install some helper tools    
-    procps curl git nano \
+    procps curl git nano tree \
 
     # install jdk
     openjdk-21-jdk && \
